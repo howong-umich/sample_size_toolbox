@@ -72,44 +72,24 @@ A sample size number without its assumptions is not very useful. This app tries 
 
 ---
 
-## Installation
+## Quick start
 
-### 1. Clone or download the project
-Place "sample_size.py" in your project folder.
+### Option 1 — Use the web app (no installation)
 
-Example structure:
-```text
-sample-size-calculator/
-├── sample_size.py
-├── requirements.txt
-└── README.md
-```
+Visit the hosted calculator:
+**[Sample size calculator](https://sample-size-toolbox.onrender.com/)**
 
-### 2. Create a virtual environment
-On macOS or Linux:
+Select your study design, enter the parameters, and get the required sample size.
+ 
+### Option 2 — Install and run the app locally
+
+Recommended Python version: Python 3.10 or later.
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
-On Windows:
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-### 3. Install dependencies
-
-Download "requirements.txt", then install 
-```bash
+git clone https://github.com/howong-umich/sample_size_toolbox
+cd sample-size-toolbox
 pip install -r requirements.txt
 ```
-
-Recommended Python version: Python 3.10 or later
-
----
-
-## Running the app locally
 
 From the project folder, run:
 ```bash
@@ -435,8 +415,8 @@ The final sample size depends heavily on the assumptions entered by the user.
 ## Related resources
 - Medium article: [Insert article link]
 - Formula appendix: [Insert formula sheet link]
-- Live app: [Insert Streamlit app link]
-- Source code: [Insert GitHub link]
+- Live app:[Link](https://sample-size-toolbox.onrender.com/)
+- Source code:[Link](https://github.com/howong-umich/sample_size_toolbox)
 
 ---
 
