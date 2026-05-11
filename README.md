@@ -451,10 +451,13 @@ MIT License
 Created by: Howard Wong
 
 If this toolbox is useful in your work, a citation to this repository or link back to the Medium article is appreciated but not required:
+
+Github repository:
 ```text
-Repository
 https://github.com/howong-umich/sample_size_toolbox
+```
 
 Medium article:
+```text
 [link]
 ```
