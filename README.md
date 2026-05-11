@@ -415,8 +415,8 @@ The final sample size depends heavily on the assumptions entered by the user.
 ## Related resources
 - Medium article: [Insert article link]
 - Formula appendix: [Insert formula sheet link]
-- Live app:[Link](https://sample-size-toolbox.onrender.com/)
-- Source code:[Link](https://github.com/howong-umich/sample_size_toolbox/blob/main/sample_size.py)
+- Live app: [Link](https://sample-size-toolbox.onrender.com/)
+- Source code: [Link](https://github.com/howong-umich/sample_size_toolbox/blob/main/sample_size.py)
 
 ---
 
