@@ -78,30 +78,32 @@ A sample size number without its assumptions is not very useful. This app tries 
 Place "sample_size.py" in your project folder.
 
 Example structure:
-
+```text
 sample-size-calculator/
 ├── sample_size.py
 ├── requirements.txt
 └── README.md
+```
 
 ### 2. Create a virtual environment
 On macOS or Linux:
-
-bash
+```bash
 python -m venv .venv
 source .venv/bin/activate
+```
 
 On Windows:
-
-bash
+```bash
 python -m venv .venv
 .venv\Scripts\activate
+```
 
 ### 3. Install dependencies
 
 Download "requirements.txt", then install 
-
+```bash
 pip install -r requirements.txt
+```
 
 Recommended Python version: Python 3.10 or later
 
@@ -110,9 +112,9 @@ Recommended Python version: Python 3.10 or later
 ## Running the app locally
 
 From the project folder, run:
-
-bash
+```bash
 streamlit run sample_size.py
+```
 
 Streamlit will open the app in your browser.
 
@@ -191,7 +193,7 @@ Required inputs include:
 - Cluster size (m)
 - Intracluster correlation (rho)
 
-The app uses the common design effect approximation:
+The app uses the common design effect (deff) approximation:
 
 deff approximately equals to 1 + (m - 1)*rho
 
@@ -227,7 +229,9 @@ The app uses standard large-sample normal approximation formulas.
 ## Interpreting the output
 
 The most important section is:
-"Final answer"
+```text
+Final answer
+```
 
 This gives the rounded sample size you should carry forward.
 
@@ -382,10 +386,7 @@ For example, if the required completed sample size is 1,000 and the expected res
 
 If both eligibility and response rates matter, use:
 
-n_{\text{draw}} =
-\frac{n_{\text{analysis}}}{\text{eligibility rate} \times \text{response rate}}
-
-#n_draw = n_analysis / (eligibility rate * response rate)
+n_draw = n_analysis / (eligibility rate * response rate)
 
 ---
 
