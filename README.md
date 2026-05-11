@@ -382,7 +382,12 @@ For example, if the required completed sample size is 1,000 and the expected res
 
 If both eligibility and response rates matter, use:
 
-n_draw = n_analysis / (eligibility rate * response rate)
+\[
+n_{\text{draw}} =
+\frac{n_{\text{analysis}}}{\text{eligibility rate} \times \text{response rate}}
+\]
+
+#n_draw = n_analysis / (eligibility rate * response rate)
 
 ---
 
@@ -437,7 +442,9 @@ The final sample size depends heavily on the assumptions entered by the user.
 ---
 
 ## License
+```text
 MIT License
+```
 
 ---
 
