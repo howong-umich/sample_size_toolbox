@@ -450,7 +450,11 @@ MIT License
 ## Author
 Created by: Howard Wong
 
-If this toolbox is useful in your work, a citation or link back to the Medium articles is appreciated but not required:
+If this toolbox is useful in your work, a citation to this repository or link back to the Medium article is appreciated but not required:
 ```text
+Repository
 https://github.com/howong-umich/sample_size_toolbox
+
+Medium article:
+[link]
 ```
