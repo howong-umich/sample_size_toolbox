@@ -87,7 +87,7 @@ Recommended Python version: Python 3.10 or later.
 
 ```bash
 git clone https://github.com/howong-umich/sample_size_toolbox
-cd sample-size-toolbox
+cd sample_size_toolbox
 pip install -r requirements.txt
 ```
 
