@@ -450,4 +450,7 @@ MIT License
 ## Author
 Created by: Howard Wong
 
-If you use this calculator in a report, protocol, article, or teaching material, please cite or link to the repository and accompanying formula appendix.
+If this toolbox is useful in your work, a citation or link back to the Medium articles is appreciated but not required:
+```text
+https://github.com/howong-umich/sample_size_toolbox
+```
